@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   Fed-Watch Dashboard global styles.
+   Theme: near-black canvas, cyan/green accents (TradingView style).
+   Typography: IBM Plex Sans for headings, JetBrains Mono for data.
+   ------------------------------------------------------------------ */
+
+:root {
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --surface-2: #161616;
+    --surface-hover: #1a1a1a;
+    --border: #1f2937; /* slate-800 */
+    --border-soft: rgba(31, 41, 55, 0.6);
+    --text: #f1f5f9; /* slate-100 */
+    --text-dim: #94a3b8; /* slate-400 */
+    --text-mute: #64748b; /* slate-500 */
+    --cyan: #22d3ee;
+    --emerald: #10b981;
+    --rose: #f43f5e;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+body {
+    margin: 0;
+    font-family:
+        "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:
+        radial-gradient(
+            1200px 600px at 80% -10%,
+            rgba(34, 211, 238, 0.06),
+            transparent 60%
+        ),
+        radial-gradient(
+            900px 500px at -10% 110%,
+            rgba(16, 185, 129, 0.05),
+            transparent 60%
+        );
+}
+
+.font-mono,
+code,
+pre,
+kbd,
+samp {
+    font-family: "JetBrains Mono", Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* Faint terminal scanline overlay – subtle, not distracting */
+.scanlines::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.015) 0px,
+        rgba(255, 255, 255, 0.015) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+    mix-blend-mode: overlay;
+    z-index: 0;
+}
+
+/* Pulsing LIVE dot */
+@keyframes fw-pulse {
+    0%,
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.55);
+    }
+    50% {
+        opacity: 0.55;
+        box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    }
+}
+.live-dot {
+    animation: fw-pulse 1.6s ease-in-out infinite;
+}
+
+/* Row "flash" when a new entry is added */
+@keyframes fw-flash {
+    0% {
+        background-color: rgba(34, 211, 238, 0.18);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+.row-flash {
+    animation: fw-flash 1.4s ease-out 1;
+}
+
+/* Custom scrollbar – terminal feel */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f2937;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+::selection {
+    background: rgba(34, 211, 238, 0.35);
+    color: #f8fafc;
+}

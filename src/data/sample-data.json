@@ -1,0 +1,61 @@
+[
+  { "id": 1, "source": "FED", "category": "Inflation", "value": "$1.2B", "timestamp": "2026-05-01T08:30:00Z" },
+  { "id": 2, "source": "BLS", "category": "Employment", "value": 420000, "timestamp": 1777624200 },
+  { "id": 3, "source": "bea", "category": "GDP", "value": "2.4%", "timestamp": "2026/05/01 09:15:00" },
+  { "id": 4, "source": "Fed", "category": "Inflation", "value": "950M", "timestamp": "May 1 2026 10:00 AM" },
+  { "id": 5, "source": "Treasury", "category": "Rates", "value": 5.25, "timestamp": 1777629600 },
+
+  { "id": 6, "source": "FED", "category": "Inflation", "value": "$1.31B", "timestamp": "2026-05-02T08:30:00Z" },
+  { "id": 7, "source": "BLS", "category": "Employment", "value": "390000", "timestamp": 1777710600 },
+  { "id": 8, "source": "BEA", "category": "GDP", "value": "2.7%", "timestamp": "2026-05-02 09:00:00" },
+  { "id": 9, "source": "fed", "category": "Inflation", "value": "$1.41B", "timestamp": "05/02/2026 10:00:00" },
+  { "id": 10, "source": "Treasury", "category": "Rates", "value": "5.5", "timestamp": 1777716000 },
+
+  { "id": 11, "source": "FED", "category": "Inflation", "value": "$1.52B", "timestamp": "2026-05-03T08:30:00Z" },
+  { "id": 12, "source": "BLS", "category": "Employment", "value": 415000, "timestamp": "2026-05-03T09:00:00Z" },
+  { "id": 13, "source": "BEA", "category": "GDP", "value": "3.1%", "timestamp": 1777797000 },
+  { "id": 14, "source": "fed", "category": "Inflation", "value": "$1.63B", "timestamp": "Sat, 03 May 2026 10:00:00 GMT" },
+  { "id": 15, "source": "Treasury", "category": "Rates", "value": "5.75", "timestamp": "2026-05-03 11:00:00" },
+
+  { "id": 16, "source": "FED", "category": "Inflation", "value": "$1.72B", "timestamp": "2026-05-04T08:30:00Z" },
+  { "id": 17, "source": "BLS", "category": "Employment", "value": "405000", "timestamp": 1777883400 },
+  { "id": 18, "source": "BEA", "category": "GDP", "value": "2.9%", "timestamp": "2026/05/04 09:00 AM" },
+  { "id": 19, "source": "fed", "category": "Inflation", "value": "$1.81B", "timestamp": "2026-05-04T10:00:00Z" },
+  { "id": 20, "source": "Treasury", "category": "Rates", "value": 5.8, "timestamp": 1777888800 },
+
+  { "id": 21, "source": "FED", "category": "Inflation", "value": "$1.95B", "timestamp": "2026-05-05T08:30:00Z" },
+  { "id": 22, "source": "BLS", "category": "Employment", "value": 401000, "timestamp": "2026-05-05 09:00:00" },
+  { "id": 23, "source": "BEA", "category": "GDP", "value": "3.4%", "timestamp": 1777973400 },
+  { "id": 24, "source": "fed", "category": "Inflation", "value": "$2.10B", "timestamp": "2026-05-05T10:00:00Z" },
+  { "id": 25, "source": "Treasury", "category": "Rates", "value": "6.0", "timestamp": "Tue, 05 May 2026 11:00:00 GMT" },
+
+  { "id": 26, "source": "FED", "category": "Inflation", "value": "$2.25B", "timestamp": "2026-05-06T08:30:00Z" },
+  { "id": 27, "source": "BLS", "category": "Employment", "value": "398000", "timestamp": 1778059800 },
+  { "id": 28, "source": "BEA", "category": "GDP", "value": "3.8%", "timestamp": "2026-05-06 09:00:00" },
+  { "id": 29, "source": "fed", "category": "Inflation", "value": "$2.41B", "timestamp": "05-06-2026 10:00:00" },
+  { "id": 30, "source": "Treasury", "category": "Rates", "value": 6.1, "timestamp": 1778065200 },
+
+  { "id": 31, "source": "FED", "category": "Inflation", "value": "$2.60B", "timestamp": "2026-05-07T08:30:00Z" },
+  { "id": 32, "source": "BLS", "category": "Employment", "value": 392000, "timestamp": "2026-05-07T09:00:00Z" },
+  { "id": 33, "source": "BEA", "category": "GDP", "value": "4.0%", "timestamp": 1778146200 },
+  { "id": 34, "source": "fed", "category": "Inflation", "value": "$2.81B", "timestamp": "2026/05/07 10:00 AM" },
+  { "id": 35, "source": "Treasury", "category": "Rates", "value": "6.4", "timestamp": 1778151600 },
+
+  { "id": 36, "source": "FED", "category": "Inflation", "value": "$3.01B", "timestamp": "2026-05-08T08:30:00Z" },
+  { "id": 37, "source": "BLS", "category": "Employment", "value": "385000", "timestamp": "2026-05-08 09:00:00" },
+  { "id": 38, "source": "BEA", "category": "GDP", "value": "4.2%", "timestamp": 1778232600 },
+  { "id": 39, "source": "fed", "category": "Inflation", "value": "$3.25B", "timestamp": "Thu, 08 May 2026 10:00:00 GMT" },
+  { "id": 40, "source": "Treasury", "category": "Rates", "value": 6.6, "timestamp": 1778238000 },
+
+  { "id": 41, "source": "FED", "category": "Inflation", "value": "$3.40B", "timestamp": "2026-05-09T08:30:00Z" },
+  { "id": 42, "source": "BLS", "category": "Employment", "value": 379000, "timestamp": 1778319000 },
+  { "id": 43, "source": "BEA", "category": "GDP", "value": "4.5%", "timestamp": "2026-05-09 09:00:00" },
+  { "id": 44, "source": "fed", "category": "Inflation", "value": "$3.61B", "timestamp": "2026-05-09T10:00:00Z" },
+  { "id": 45, "source": "Treasury", "category": "Rates", "value": "6.8", "timestamp": 1778324400 },
+
+  { "id": 46, "source": "FED", "category": "Inflation", "value": "$3.85B", "timestamp": "2026-05-10T08:30:00Z" },
+  { "id": 47, "source": "BLS", "category": "Employment", "value": "370000", "timestamp": "2026-05-10 09:00:00" },
+  { "id": 48, "source": "BEA", "category": "GDP", "value": "4.7%", "timestamp": 1778410800 },
+  { "id": 49, "source": "fed", "category": "Inflation", "value": "$4.02B", "timestamp": "2026/05/10 10:00 AM" },
+  { "id": 50, "source": "Treasury", "category": "Rates", "value": 7.0, "timestamp": 1778416200 }
+]
